@@ -15,7 +15,7 @@ public class SpringBootGitHubJenkinApplication {
 
 	@GetMapping("/hello")
 	public String hello(){
-		logger.info("/hello called ");
+		logger.info("hello called ");
 		return "hello";
 	}
 
